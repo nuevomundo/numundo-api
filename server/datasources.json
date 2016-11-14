@@ -2,9 +2,9 @@
   "db": {
    "name": "mongolab",
    "connector": "mongodb",
-   "host": "$(process.env.MONGODB_URI)",
+   "host": "$(process.env.MONGO_HOST)",
    "port": "$(process.env.MONGO_PORT)",
-   "database": "$(process.env.MONGO_NAME)",
+   "database": "$(process.env.MONGO_DBNAME)",
    "username": "$(process.env.MONGO_USER)",
    "password": "$(process.env.MONGO_PASS)"
  }
