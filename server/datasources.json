@@ -1,9 +1,11 @@
 {
-  "mongodb": {
-    "defaultForType": "mongodb",
-    "connector": "loopback-connector-mongodb",
-    "database": "dbname",
-    "host": "localhost",
-    "port": "27017"
-  }
+  "db": {
+   "name": "mongolab",
+   "connector": "mongodb",
+   "host": "$(process.env.MONGODB_URI)",
+   "port": 27017,
+   "database": "$(process.env.MONGO_NAME)",
+   "username": "$(process.env.MONGO_USER)",
+   "password": "$(process.env.MONGO_PASS)"
+ }
 }
