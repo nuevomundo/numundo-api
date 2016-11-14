@@ -32,7 +32,7 @@
     "dataSource": "db",
     "public": false
   },
-  "Note": {
+  "Human": {
     "dataSource": "db"
   }
 }
