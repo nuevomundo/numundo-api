@@ -1,5 +1,5 @@
 {
-  "name": "Note",
+  "name": "Human",
   "properties": {
     "first_name": {
       "type": "string",
