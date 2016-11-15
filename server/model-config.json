@@ -32,7 +32,7 @@
     "dataSource": "db",
     "public": false
   },
-  "Human": {
+  "Lead": {
     "dataSource": "db"
   }
 }

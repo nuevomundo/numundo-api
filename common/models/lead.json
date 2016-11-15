@@ -1,5 +1,5 @@
 {
-  "name": "lead",
+  "name": "Lead",
   "properties": {
     "first_name": {
       "type": "string",
