@@ -1,7 +1,6 @@
 {
   "db": {
-   "name": "mongolab",
-   "connector": "mongodb",
-   "url": "$(process.env.MONGODB_URI)",
- }
+    "connector": "mongodb",
+    "url": "${MONGODB_URI}"
+  }
 }
